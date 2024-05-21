@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    transition-property: background , border-radius;
+    transition-duration: .2s;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 75px auto;
+    background: yellow;
+    border: 10px double crimson;
+}
+
+.sub{
+
+    width: 120px;
+    height: 120px;
+    background: greenyellow;
+    border:10px double crimson ;
+}
+
+.box:hover {
+    width: 300px;
+    border-radius: 50px;
+    background: orange;
+    transition-duration: .5s;
+
+}
+.box:hover .sub{
+    border-radius: 20px;
+    background: crimson;
+
+}
+
+.box:active{
+    background: aquamarine;
+    
+}

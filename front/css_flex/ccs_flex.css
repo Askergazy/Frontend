@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    align-items: center;
+    height:550px;
+    background: yellow;
+}
+
+.child{
+    width: 110px;
+    height: 110px;
+    border: 10px dotted crimson;
+    background: yellowgreen;
+    font-size: 3rem;
+    padding: 10px;
+=}

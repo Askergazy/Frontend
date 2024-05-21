@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 4px solid orange;
+    border-radius: 360px;
+}
+
+a {
+    padding: 40px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.button1 {
+    border-bottom-left-radius: 360px;
+    border-top-left-radius: 360px;
+    border-right: none;
+
+}
+
+.button2 {
+    border-top-right-radius: 360px;
+    border-bottom-right-radius: 360px;
+    border-left: none;
+
+}
+
+.circle-1 {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    padding: 30px;
+    border-radius: 360px;
+    border: 4px solid orange;
+    background: white;
+}
+
+.circle-2 {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    padding: 20px;
+    border-radius: 360px;
+    border: 4px solid orange;
+    background: white;
+}
+
+.circle-3 {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    padding: 10px;
+    border-radius: 360px;
+    border: 4px solid orange;
+    background: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 4px;
+    background: orange;
+}
+
+
+a:hover {
+    background: orange;
+    transition-duration: .4s;
+    color: white;
+}
+
+
+
+
+
+
+

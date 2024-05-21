@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+body {
+    background-color: grey;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition-property: width;
+    transition-duration: 1s;
+    margin: -10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+.line {
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+    background: crimson;
+    border-radius: 10px;
+}
+
+.text:hover .line {
+    width: 15%;
+}
+
+.red {
+    color: red;
+}
+
+
+
+
+
+
